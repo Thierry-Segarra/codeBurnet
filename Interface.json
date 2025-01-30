@@ -8,10 +8,5 @@
     "name": "Interface 8Go",
     "ramUse":8,
     "code": "/** @param {NS} ns **/\nimport { mainMenu } from \"hackSource/Interface_8Go.js\";\n//import { mainMenu } from \"hackSource/menuConfig.js\";\n\n/** @param {NS} ns **/\nexport async function main(ns) {\n    // Charge le JSON contenant les informations\n    await mainMenu(ns);\n}\n"
-  },
-  {
-    "name": "Interface 16Go",
-    "ramUse":16,
-    "code": "/** @param {NS} ns **/\nimport { mainMenu } from \"hackSource/Interface_16Go.js\";\n//import { mainMenu } from \"hackSource/menuConfig.js\";\n\n/** @param {NS} ns **/\nexport async function main(ns) {\n    // Charge le JSON contenant les informations\n    await mainMenu(ns);\n}\n"
   }
 ]
