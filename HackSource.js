@@ -2,10 +2,12 @@
 export async function main(ns) {
     // Liste d'URLs à télécharger
     const filesToDownload = [
+        { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/HackSource.js",
+         target: "HackSource.js" },
         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/Interface.js",
          target: "Interface.js" },
-        { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/Interface.json",
-         target: "Interface.json" },
+        { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/hackSource/json/Interface.json",
+         target: "hackSource/json/Interface.json" },
         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/ParamInterface.js",
          target: "ParamInterface.js" },
         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/hackSource/Interface_8Go.js",
@@ -24,6 +26,8 @@ export async function main(ns) {
          target: "hackSource/tools/scriptPirate.js" },
         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/hackSource/tools/transfereScriptPirate.js",
          target: "hackSource/tools/transfereScriptPirate.js" },
+         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/hackSource/tools/callAllServerScript.js",
+            target: "hackSource/tools/callAllServerScript.js" },
         { url: "https://raw.githubusercontent.com/Thierry-Segarra/codeBurnet/refs/heads/main/hackSource/action/hack.js",
          target: "hackSource/action/hack.js" },
     ];

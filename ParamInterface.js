@@ -1,12 +1,12 @@
 /** @param {NS} ns **/
 
 export async function main(ns) {
-  if (!ns.fileExists("Interface.json", "home")) {
+  if (!ns.fileExists("hackSource/Json/Interface.json", "home")) {
     ns.tprint("Fichier Interface.json introuvable !");
     return;
   }
 
-  const interfaceData = JSON.parse(ns.read("Interface.json")); // Charger le JSON
+  const interfaceData = JSON.parse(ns.read("hackSource/Json/Interface.json")); // Charger le JSON
   let menuListe = [];
   let description = "==== Sélection d'Interface ====\n";
 
